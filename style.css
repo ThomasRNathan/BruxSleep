@@ -1,0 +1,98 @@
+h1 {
+ 	color: #083763;
+	font-size: 20px;
+	font-family: Ubuntu;
+}
+
+body {
+	color: #083763;     /* Text color */
+	font-family: Ubuntu;
+	background-color: #CFE2F3;  /* Background color */
+}
+
+#logo {
+	width: 150px;
+}
+
+.Feature {
+	width: 120px;
+}
+
+.Photo {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+.img-circle-small {
+	border-radius: 50%;
+	width: 80px;
+}
+
+/*Banner*/
+
+.banner{
+  text-align: center;
+  color: white;
+	padding: 150px 0px;
+}
+
+.banner h1 {
+  font-size: 50px;
+}
+
+.banner p {
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+/*Button*/
+
+.btn-blue {
+  color: white;
+  background: #6772e5;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  border-radius: 4px;
+  padding: 15px 20px;
+}
+
+.btn-blue:hover {
+  background: #7795f8;
+  color: white;
+}
+
+/*Features*/
+.feature-box {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+}
+.feature-box img {
+  margin-bottom: 20px;
+}	
+
+/*Footer*/
+.footer {
+  background-color: blue;
+  padding: 24px;
+  color: white;
+}
+.footer a {
+  color: white;
+  font-size: 32px;
+}
+
+/*Inline*/
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 0px 8px;
+}
